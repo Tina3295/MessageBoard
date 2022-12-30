@@ -10,9 +10,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-
-<h1>留言板</h1>
-
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="MessageID">
                 <Columns>
                     <asp:TemplateField HeaderText="編號" SortExpression="Topic">
